@@ -14,12 +14,6 @@ import java.util.Date;
 @EntityListeners(AuditingEntityListener.class)
 
 public class Stock {
-    public Stock() {
-        ticker = "BABA";
-        company = "Alibaba";
-        purchasePrice = 170.70;
-        shares = 30;
-    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
