@@ -5,3 +5,4 @@
 /Users/jenny/Documents/Programming/stock-exchange/server/src/main/java/io/github/jennysihua/stockexchange/controller/UserController.java
 /Users/jenny/Documents/Programming/stock-exchange/server/src/main/java/io/github/jennysihua/stockexchange/repository/UserRepository.java
 /Users/jenny/Documents/Programming/stock-exchange/server/src/main/java/io/github/jennysihua/stockexchange/repository/StockRepository.java
+/Users/jenny/Documents/Programming/stock-exchange/server/src/main/java/io/github/jennysihua/stockexchange/WebMvcConfig.java

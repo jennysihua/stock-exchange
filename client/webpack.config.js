@@ -5,7 +5,7 @@ const webpack = require('webpack')
 module.exports = {
   entry: ['babel-polyfill','./app/index.js'],
   output: {
-    path: path.join(__dirname, 'target', 'classes', 'META_INF', 'resources', 'webjars', 'client'),
+    path: path.join(__dirname, '..', 'server', 'src', 'main', 'resources', 'public'),
     filename: 'bundle.js'
   },
   devtool: 'source-map',
