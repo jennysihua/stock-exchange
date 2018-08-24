@@ -7,6 +7,7 @@
     <groupId>io.github.jennysihua</groupId>
     <artifactId>app</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <modules>
         <module>../client</module>
