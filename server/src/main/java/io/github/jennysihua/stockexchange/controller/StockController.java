@@ -24,6 +24,6 @@ public class StockController {
 
     @RequestMapping(method = RequestMethod.POST)
     public Stock createStock(@Valid @RequestBody Stock stock) {
-        return
+        return stockRepository.save(stock);
     }
 }
