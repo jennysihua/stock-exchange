@@ -8,6 +8,7 @@ module.exports = {
     path: path.join(__dirname, '..', 'server', 'src', 'main', 'resources', 'public'),
     filename: 'bundle.js'
   },
+  mode: 'development',
   devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.jsx']

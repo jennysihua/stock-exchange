@@ -1,1 +1,2 @@
-export {default as Root} from './Root'
+export {default as Routes} from './Routes'
+export {default as Navbar} from './Navbar'
