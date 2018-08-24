@@ -1,0 +1,14 @@
+{
+  "name": "client",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "Front end for stock exchange app",
+  "main": "./app",
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "author": "jennysihua",
+  "devDependencies": {
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
