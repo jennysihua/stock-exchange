@@ -25,4 +25,7 @@
 /.nb-gradle/
 
 ### Node ###
-.node_modules
+client/node_modules
+
+### Bundle ###
+server/src/main/resources/public/bundle.js

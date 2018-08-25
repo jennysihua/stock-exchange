@@ -1,14 +1,17 @@
 import React, {Component} from 'react'
 import {
-  Navbar
-} from '../'
+  Navbar,
+  Portfolio
+} from './'
 import {withRouter, Route} from 'react-router-dom'
 
 class Routes extends Component {
   render () {
     return (
-//      <Route path="/" component={Navbar} />
-      <div>Hello from Routes.js</div>
+      <div>
+        <Route path="/" component={Navbar} />
+        <Route path="/" component={Portfolio} />
+      </div>
     )
   }
 }
